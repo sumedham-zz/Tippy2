@@ -14,6 +14,7 @@
 		FC2365B41D112E4F007A060E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2365B21D112E4F007A060E /* LaunchScreen.storyboard */; };
 		FC2365BF1D112E50007A060E /* Tippy2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2365BE1D112E50007A060E /* Tippy2Tests.swift */; };
 		FC2365CA1D112E50007A060E /* Tippy2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2365C91D112E50007A060E /* Tippy2UITests.swift */; };
+		FC2365DA1D11366D007A060E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2365D91D11366D007A060E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FC2365C51D112E50007A060E /* Tippy2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tippy2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2365C91D112E50007A060E /* Tippy2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tippy2UITests.swift; sourceTree = "<group>"; };
 		FC2365CB1D112E50007A060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2365D91D11366D007A060E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FC2365B01D112E4F007A060E /* Assets.xcassets */,
 				FC2365B21D112E4F007A060E /* LaunchScreen.storyboard */,
 				FC2365B51D112E4F007A060E /* Info.plist */,
+				FC2365D91D11366D007A060E /* SettingsViewController.swift */,
 			);
 			path = Tippy2;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				FC2365AC1D112E4F007A060E /* ViewController.swift in Sources */,
 				FC2365AA1D112E4F007A060E /* AppDelegate.swift in Sources */,
+				FC2365DA1D11366D007A060E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
